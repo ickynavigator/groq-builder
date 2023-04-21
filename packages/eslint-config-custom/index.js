@@ -1,7 +1,4 @@
-export default {
+module.exports = {
   extends: ['turbo', 'standard', 'prettier'],
   rules: {},
-  parserOptions: {
-    babelOptions: {},
-  },
 };
