@@ -1,0 +1,5 @@
+{
+  "extends": "@groq-builder/tsconfig/base.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
+}
