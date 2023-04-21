@@ -1,15 +1,19 @@
 {
-  "name": "eslint-config-custom",
-  "version": "0.0.0",
+  "name": "@groq-builder/eslint-config-custom",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {
-    "eslint-config-next": "latest",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-react": "7.28.0",
-    "eslint-config-turbo": "latest"
-  },
+  "private": true,
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-config-turbo": "latest",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1"
   }
 }

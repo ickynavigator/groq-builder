@@ -1,4 +1,8 @@
 {
+  "version": "1.0.0",
+  "packageManager": "yarn@1.22.19",
+  "description": "type safe groq builder",
+  "author": "Obi Fortune <gabrielobi.of@gmail.com> (https://obifortune.tech/)",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -7,13 +11,11 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@groq-builder/eslint-config-custom": "*",
     "eslint": "^7.32.0",
-    "eslint-config-custom": "*",
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
-  "name": "groq-builder",
-  "packageManager": "yarn@1.22.19",
   "workspaces": [
     "apps/*",
     "packages/*"
